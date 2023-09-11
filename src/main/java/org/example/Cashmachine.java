@@ -49,7 +49,7 @@ public class Cashmachine implements CashmachineInterface {
         }
     }
 
-    void inputInterface(){
+    public void inputInterface(){
         while (true){
             System.out.println("Выбирите действие 1-пополнить 2-снять 3-текущий баланс 4-вытащить карту");
             switch (sc.nextInt()){
