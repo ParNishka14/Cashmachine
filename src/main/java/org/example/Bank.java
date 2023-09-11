@@ -8,14 +8,16 @@ public class Bank implements BankInterface {
     ArrayList<Card> cards = new ArrayList<>();
     ArrayList<Integer> pinCods = new ArrayList<>();
     public Bank() {
-        names.add("Andrey");
+        names.add("Andrei");
         names.add("Nikita");
-        names.add("Stepa");
+        names.add("Stepan");
         names.add("Ilya");
+        names.add("Gayorgy");
         cards.add(new Card(8342,0000,623, 0));
         cards.add(new Card(6435,0000,453, 0));
         cards.add(new Card(7343,0000,983, 0));
         cards.add(new Card(8989,0000,962, 0));
+        cards.add(new Card(8990,0000,960, 0));
     }
 
     @Override

@@ -13,7 +13,7 @@ public interface CashmachineInterface {
 
         void withdrawMoney();
 
-        void getBallance();
+        void getBalance();
 
         void pullOutCard();
 

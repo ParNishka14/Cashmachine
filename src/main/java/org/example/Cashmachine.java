@@ -55,7 +55,7 @@ public class Cashmachine implements CashmachineInterface {
             switch (sc.nextInt()){
                 case 1 -> topUpBalance();
                 case 2 -> withdrawMoney();
-                case 3 -> getBallance();
+                case 3 -> getBalance();
                 case 4 -> pullOutCard();
             }
 
@@ -99,7 +99,7 @@ public class Cashmachine implements CashmachineInterface {
     }
 
     @Override
-    public void getBallance() {
+    public void getBalance() {
         System.out.println("Ваш баланс: " + bank.cards.get(currentCardIndex).getBalance());
     }
 
