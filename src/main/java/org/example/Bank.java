@@ -24,7 +24,6 @@ public class Bank implements BankInterface {
     public void getUserinfo(int indexCard) {
         System.out.println("Имя держателя: " + names.get(indexCard));
     }
-
     @Override
     public int getCard(int index) {
         return cards.get(index).cardNumber;
@@ -37,5 +36,7 @@ public class Bank implements BankInterface {
         }
         return false;
     }
-
+    public ArrayList<Card> getCards() {
+        return cards;
+    }
 }
